@@ -1,0 +1,242 @@
+@import "../custom.scss";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.footer_container{
+    height: 600px;
+    width: 100vw;
+    background-image: url("../../../../public/Images/footer_bg_image.webp");
+    background-repeat: no-repeat;
+    background-position: left;
+     
+   
+    .footer-inner{      
+        min-height: 600px;
+        background-color: $footer_bgcolor;
+        position: absolute;
+        left: 0;
+        right: 0;
+
+        opacity: 0.9;
+       
+    }
+
+    .box{
+        margin-left: 30px;
+       
+    }
+    
+}
+footer {
+    // min-height: 450px;
+    min-height: 600px;
+    
+    // margin-top: 70px;
+    p{
+        font-size: 0.8em;
+        font-size: 16px;
+        color: $ptag_color !important;
+        font-family: 600  !important;
+    }
+    h4{
+        color: $white-color;
+    }
+
+
+    .footer {
+
+       
+
+        &-wrapper {
+            z-index: 1;
+            margin: 0 10em;
+
+           
+
+            .box1 {
+
+                p{
+                    margin: 30px 0px 30px 0px;
+                   
+                }
+
+                .footer_icon {
+                    height: 43px;
+                    width: 43px;
+                    border: 2px solid $box2-icon-bordercolor;
+                    border-radius: 17px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 15px;
+                    font-weight: 400;
+                    margin-right: 10px;
+                    color: $white-color;
+
+                }
+
+                .footer_icon_container  :hover{
+                    background-color: $white-color;
+                    color: $blue_icon-color;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+
+            .box2 {
+               
+               p{
+                padding-top: 20px;
+               }
+                div {
+                    display: flex;
+                    align-items: center;
+
+                    .fa-envelope{
+                        margin-top: 30px;
+                    }
+
+                    
+                }
+
+                i {
+                    color: $blue_icon-color;
+                    font-size: 14px;
+                    padding-right: 20px;
+                }
+
+                h6{
+                    margin: 20px 0px 10px 0px;
+                    color: $white-color;
+                }
+               
+            }
+
+            // box 2 end box 3 start
+         .box3{
+            .row{
+                margin-top: 30px;
+                .image{
+                    padding-top: 0.8em; 
+               }
+                img{
+    
+                    border-radius: 10px;
+                    margin-right: 0.2em;
+                    width: 80px;
+                    height: 80px;
+                   
+                   }
+                   .image :hover{
+                    background-color: $blue_icon-color;
+                    cursor: pointer;
+                   }
+            }
+         }
+
+        }
+
+    } 
+    
+    // box3 end and box 4 start
+
+    .box4 {
+        
+       p{
+        padding-top: 30px;
+       }
+
+       
+.newsletter_input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $box4-input-bgcolor;
+    border-radius: 10px;
+    border-top-left-radius: 10px !important;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 270px;
+    margin: 30px 0px 30px 0px;
+           
+    i{
+        color: $white-color;
+        font-size: 15px;
+        padding-right: 30px;
+    }
+   
+}
+        input {
+            height: 60px;
+            width: 270px;
+            background-color: $box4-input-bgcolor;  
+            margin-left: 20px;          
+          border: none;
+          outline: none;
+          font-size: 16px;
+          font-family: sans-serif;
+          color: $white-color;
+            
+            
+        }
+
+        div {
+            display: flex;
+
+            img{
+                height: 50px;
+                padding-top: 10px;
+            }
+           
+
+            
+           
+        }
+
+        .call_expert{
+            margin-top: -50px;
+            margin-left: 50px;
+        }
+    }
+    h5{
+        color: $white-color;
+    }
+
+
+}
+
+
+
+
+// box4 end hr start
+
+
+.footer_bottom_line{
+
+.bottom_line{
+    
+    width: 80vw;
+   border: 1px solid rgb(255,255,255,0.1) !important;
+    display: flex;
+   justify-content: center;
+   z-index: 3;
+   position: relative;
+   margin-top: 100px;
+   
+   
+    
+}
+
+p{
+    color: #97a2b7;
+    font-size: 18px;
+    margin-top: 20px;
+    z-index: 3;
+    
+    
+}
+}

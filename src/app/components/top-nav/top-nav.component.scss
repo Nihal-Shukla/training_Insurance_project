@@ -1,0 +1,83 @@
+@import '../custom.scss';
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.top_nav{
+    height: 40px;
+    min-width: 100%;
+    background-color: $top_nav_bgcolor;
+    display: flex;
+    justify-content: space-around;
+   
+    font-size: small;
+
+    .text1{
+        height: 40px;
+        width: fit-content;
+        display: flex;
+
+        .location{
+            color: white;
+            display: flex;
+            align-items: center;
+            p{
+                color: $text_color;
+                padding: 0px 0px 0px 10px;
+           color: $text_color;
+         font-family: sans-serif;
+
+            }
+            i{
+                color: #045FC9;
+                font-size: 13px;
+            }
+
+        }
+
+        .mail{
+            color: white;
+            display: flex;
+            align-items: center;
+            p{
+                color: $text_color;
+                padding: 0px 0px 0px 0px;
+           color: $text_color;
+         font-family: sans-serif;
+            }
+            i{
+                color:#045FC9;
+                padding: 0px 10px 0px 30px;
+                font-size: 13px;
+            }
+        }
+        
+
+
+        }
+    
+    }
+    .text2{
+        height: 40px;
+        width: fit-content;
+        display: flex;
+        p{
+           padding: 0px 0px 0px 30px;  
+           color: $text_color;
+           font-family: sans-serif;
+           margin-top: 10px;
+        }
+        i{
+            font-size: 15px;
+            color: $icon-color;
+            display: flex;
+            align-items: center;
+            margin-left: 25px;
+        }
+
+    }
+
+
